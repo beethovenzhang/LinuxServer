@@ -52,7 +52,7 @@ Source: [UbuntuTime](https://help.ubuntu.com/community/UbuntuTime).
 2. `$ sudo service ssh restart`.
 
 ### 6 - Change the SSH port from 22 to 2200
-1. `$ sudo nano /etc/ssh/sshd_config`. Find the *Port* line and edit it to *2200*.
+1. `$ sudo nano /etc/ssh/sshd_config`. Find the *Port* line and edit it to *2200*. Then go to the Lightsail page and add a custom tcp port at 2200 in the `firewall` section. You can delete the original SSH port at 22 on the same section after you confirm that the 2200 port is working.
 2. `$ sudo service ssh restart`.
 3. Now you are able to log into the remote VM through ssh with the following command: `$ ssh -i ~/.ssh/udacity_key.rsa -p 2200 grader@34.221.214.78`.
 
