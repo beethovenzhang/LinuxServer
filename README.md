@@ -16,6 +16,18 @@ Accessible SSH port: 2200.
 Application URL: [http://ec2-34-221-214-78.us-west-2.compute.amazonaws.com](http://ec2-34-221-214-78.us-west-2.compute.amazonaws.com).
 
 **Note**: If you access the application through the application url, the app will have all the functionalities. But when you use the IP address to access the applicationthe, the Google Oauth login won't work since Google API only allows redict urls that end with a public top-level domain like .com. 
+
+## Softwares installed
+1. Time synchronization: ntp daemon ntpd
+2. Apache2: apache2
+3. mod-wsgi: libapache2-mod-wsgi-py3 python-dev
+4. pip3: python3-pip
+5. Git
+6. Virtual environment: virtualenv
+7. Required dependencies: bleach httplib2 request oauth2client sqlalchemy python-psycopg2
+8. Postgresql and related tools: libpq-dev python-dev postgresql postgresql-contrib
+9. System monitor tool: glances
+
 ## Configuration details
 
 ### 1 - Create a new user named *grader* and grant this user sudo permissions.
