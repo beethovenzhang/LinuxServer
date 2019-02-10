@@ -2,7 +2,7 @@
 
 ## Description
 
-This documentation describes how to setup and secure a linux server on Amazon Lightsail and deploy an Flask application on the server.
+This documentation describes how to setup and secure a linux server on [Amazon Lightsail](https://aws.amazon.com/lightsail/) and deploy an Flask application on the server.
 
 
 The application deployed is the [Favorite Movie App](https://github.com/beethovenzhang/FavoriteMovies).
