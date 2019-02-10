@@ -188,5 +188,5 @@ Source: [eHowStuff](http://www.ehowstuff.com/how-to-install-and-use-glances-syst
 Now your app should be accessible from the browser through both the public IP and the url.
 
 #### Special thanks to
-[jungleBadger](https://github.com/jungleBadger) for his helpful [README](https://github.com/jungleBadger/-nanodegree-linux-server-troubleshoot/blob/master/python3+venv+wsgi/README.md) on how to configure the server for python 3 and
+[*jungleBadger*](https://github.com/jungleBadger) for his helpful [README](https://github.com/jungleBadger/-nanodegree-linux-server-troubleshoot/blob/master/python3+venv+wsgi/README.md) on how to configure the server for python 3 and
  [*stueken*](https://github.com/stueken) who wrote a really helpful README in his [repository](https://github.com/stueken/FSND-P5_Linux-Server-Configuration).
