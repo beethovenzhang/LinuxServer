@@ -35,6 +35,7 @@ Application URL: [http://ec2-34-221-214-78.us-west-2.compute.amazonaws.com](http
 1. Log into the remote VM as *ubuntu* user through ssh: `$ ssh ubuntu@34.221.214.78`.
 
 **Note** There are several ways to [connect to your Ubuntu instance on Lightsail] (https://lightsail.aws.amazon.com/ls/docs/en/articles/lightsail-how-to-connect-to-your-instance-virtual-private-server). You can either connect using your browser which is the easiest way but can become inconvenient later or you can download the SSH key to your local machine and connect from your terminal(recommended).
+
 2. Add a new user called *grader*: `$ sudo adduser grader`.
 3. Create a new file under the suoders directory: `$ sudo nano /etc/sudoers.d/grader`. Fill that newly created file with the following line of text: "grader ALL=(ALL:ALL) ALL", then save it.
 
