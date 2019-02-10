@@ -15,6 +15,7 @@ Accessible SSH port: 2200.
 
 Application URL: [http://ec2-34-221-214-78.us-west-2.compute.amazonaws.com](http://ec2-34-221-214-78.us-west-2.compute.amazonaws.com).
 
+**Note**: If you access the application through the application url, the app will have all the functionalities. But when you use the IP address to access the applicationthe, the Google Oauth login won't work since Google API only allows redict urls that end with a public top-level domain like .com. 
 ## Configuration details
 
 ### 1 - Create a new user named *grader* and grant this user sudo permissions.
